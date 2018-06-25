@@ -11,7 +11,11 @@
     font-family: sans-serif;
   }
   
-
+  .container{
+    height: 1000px;
+    text-align: center;
+    padding: 300px 0px ;
+  }
   .keys {
     display: flex;
     flex: 1;
@@ -21,13 +25,14 @@
   }
   
   .key {
+    display: inline-block;
     border: .4rem solid black;
     border-radius: .5rem;
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
     transition: all .07s ease;
-    width: 10rem;
+    width: 9rem;
     text-align: center;
     color: white;
     background: rgba(0,0,0,0.4);
